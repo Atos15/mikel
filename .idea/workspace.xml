@@ -4,62 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc839a82-eee5-4ea4-87cd-01b586bc6432" name="Changes" comment="First">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/cli/DumpMIC1Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/cli/MICLI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/cli/MicroAssembleCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/cli/RunCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/MAL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/MALInstruction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/MALParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/MIC1Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/ALUInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALAssignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALControlStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALDefaultDirective.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALExpressionModifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALGotoStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALIOStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALIfStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALLabelDirective.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALMultiWayBranchStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALOperators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALRegisters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/token/MALToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/token/MALTokenizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/writer/MALWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/DefaultIOModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/IOModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/JAM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/MIC1Instruction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/MIC1Machine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/MIC1Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/Memory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/MemoryFlag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/model/ALU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/model/ALUControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/model/BusCControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/model/ShifterControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/me/astral/mal/MALParserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/me/astral/mal/token/MALTokenizerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/me/astral/mal/writer/MALWriterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/me/astral/mic/MIC1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/example.mal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/sdup.ijvm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/sdup.mal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/simple_add.ijvm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-    </list>
+    <list default="true" id="fc839a82-eee5-4ea4-87cd-01b586bc6432" name="Changes" comment="First" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -263,7 +208,7 @@
       <workItem from="1673378840633" duration="4872000" />
       <workItem from="1673868028617" duration="731000" />
       <workItem from="1674071731597" duration="12015000" />
-      <workItem from="1674084817356" duration="1583000" />
+      <workItem from="1674084817356" duration="1901000" />
     </task>
     <servers />
   </component>
