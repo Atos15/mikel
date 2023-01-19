@@ -41,7 +41,7 @@ java -jar --enable-preview .\mikel.jar dump INPUT_MIC1
 
 Each line of the output corresponds to a microinstruction.
 
-A tipical instruction will look like this:
+A typical instruction will look like this:
 
 ```
 0x003: 0x042 000 00 110101 000000100 000 0001
