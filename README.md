@@ -3,7 +3,7 @@ A MIC-1 simulator written in Java 17
 
 ## Download
 
-You can download the latest release [here](https://github.com/Atos15/mikel/tree/main/src/test/resources/examples).
+You can download the latest release (mikel.jar) [here](https://github.com/Atos15/mikel/releases).
 
 ## Getting Started
 
