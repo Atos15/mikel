@@ -3,7 +3,7 @@ A MIC-1 simulator written in Java 17
 
 ## Download
 
-You can download the latest release here.
+You can download the latest release [here](https://github.com/Atos15/mikel/tree/main/src/test/resources/examples).
 
 ## Getting Started
 
@@ -15,7 +15,7 @@ To run a IJVM program you need the following:
 1. A compiled .ijvm file
 2. A compiled (or textual) MAL file
 
-Examples of those files can be found here.
+Examples of those files can be found [here](https://github.com/Atos15/mikel/tree/main/src/test/resources/examples).
 
 ```shell{:copy}
 java -jar --enable-preview .\mikel.jar run -m PATH_IJVM PATH_MAL
