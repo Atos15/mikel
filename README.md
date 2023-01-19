@@ -54,5 +54,5 @@ A typical instruction will look like this:
 ## Roadmap
 
 - [ ] More testing, reach 90% coverage
-- [ ] Debugger
+- [ ] Debugger with terminal UI
 - [ ] New memory module
