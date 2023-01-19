@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc839a82-eee5-4ea4-87cd-01b586bc6432" name="Changes" comment="First">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/cli/DumpMIC1Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/cli/MICLI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/cli/MicroAssembleCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/cli/RunCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/MAL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/MALInstruction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/MALParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/MIC1Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/ALUInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALAssignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALControlStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALDefaultDirective.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALExpressionModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALGotoStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALIOStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALIfStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALLabelDirective.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALMultiWayBranchStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALOperators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/model/MALRegisters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/token/MALToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/token/MALTokenizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mal/writer/MALWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/DefaultIOModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/IOModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/JAM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/MIC1Instruction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/MIC1Machine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/MIC1Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/Memory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/MemoryFlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/model/ALU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/model/ALUControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/model/BusCControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/astral/mic/model/ShifterControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/astral/mal/MALParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/astral/mal/token/MALTokenizerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/astral/mal/writer/MALWriterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/astral/mic/MIC1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/example.mal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sdup.ijvm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sdup.mal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/simple_add.ijvm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit3 Test Class" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Record" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JzwXzIU45wBwc7KvOgQ8lA5CCI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "aspect.path.notification.shown": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Personal/MIC1/src/main/java/META-INF/MANIFEST.MF",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="me.astral.mic" />
+      <recent name="me.astral.mal.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Personal\MIC1\src\test\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="me.astral.mal.writer" />
+      <recent name="me.astral.mic" />
+      <recent name="me.astral.mal" />
+      <recent name="me.astral.mal.token" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.MIC1 [clean,package]">
+    <configuration name="MALParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MIC1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.astral.mal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.astral.mal" />
+      <option name="MAIN_CLASS_NAME" value="me.astral.mal.MALParserTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MIC1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MIC1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.astral.mic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.astral.mic" />
+      <option name="MAIN_CLASS_NAME" value="me.astral.mic.MIC1Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MIC1Test.testGOTO1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MIC1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.astral.mic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.astral.mic" />
+      <option name="MAIN_CLASS_NAME" value="me.astral.mic.MIC1Test" />
+      <option name="METHOD_NAME" value="testGOTO1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MIC1Test.testGOTO2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MIC1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.astral.mic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.astral.mic" />
+      <option name="MAIN_CLASS_NAME" value="me.astral.mic.MIC1Test" />
+      <option name="METHOD_NAME" value="testGOTO2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MIC1Test.testMandel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MIC1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.astral.mic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.astral.mic" />
+      <option name="MAIN_CLASS_NAME" value="me.astral.mic.MIC1Test" />
+      <option name="METHOD_NAME" value="testMandel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MIC1 [clean,package]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MIC1Test.testGOTO1" />
+      <item itemvalue="JUnit.MIC1Test.testGOTO2" />
+      <item itemvalue="JUnit.MIC1Test.testMandel" />
+      <item itemvalue="JUnit.MALParserTest" />
+      <item itemvalue="JUnit.MIC1Test" />
+      <item itemvalue="Maven.MIC1 [clean,package]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MIC1Test.testMandel" />
+        <item itemvalue="JUnit.MIC1Test.testGOTO2" />
+        <item itemvalue="JUnit.MIC1Test.testGOTO1" />
+        <item itemvalue="JUnit.MALParserTest" />
+        <item itemvalue="JUnit.MIC1Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc839a82-eee5-4ea4-87cd-01b586bc6432" name="Changes" comment="" />
+      <created>1673094321723</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673094321723</updated>
+      <workItem from="1673094323501" duration="53514000" />
+      <workItem from="1673258018546" duration="48324000" />
+      <workItem from="1673378840633" duration="4872000" />
+      <workItem from="1673868028617" duration="731000" />
+      <workItem from="1674071731597" duration="12015000" />
+      <workItem from="1674084817356" duration="1583000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/me/astral/mic/MIC1Machine.java</url>
+          <line>171</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="address == 50" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/java/me/astral/mic/MIC1Instruction.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="me.astral.mic.model.ALU" memberName="control" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="current()" language="JAVA" />
+        <watch expression="peekNext()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
