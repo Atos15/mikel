@@ -51,4 +51,8 @@ A typical instruction will look like this:
 |---------|--------------|------|---------|-----|---------------|----------------|---------------|
 | 0x003:  |  0x042        | 000  | 00|110101|000000100|000|0001|
 
+## Roadmap
 
+- [ ] More testing, reach 90% coverage
+- [ ] Debugger
+- [ ] New memory module
